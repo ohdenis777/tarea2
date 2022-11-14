@@ -11,15 +11,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="/stylesheets/main.css" />
+  <link rel="stylesheet" href="/Mission-02/stylesheets/main.css" />
 </head>
 
 <body>
-  <div id="container">
+  <div id="container-first">
 
     <header class="header" onclick="window.open('https://www.coupang.com/');">
       <h1>
-        <a href="https://www.coupang.com/">
+        <a class="picture" href="https://www.coupang.com/">
           <picture><img src="./assets/logo/logo.png" alt="쿠팡 이미지"></picture>
         </a>
       </h1>
@@ -29,12 +29,15 @@
 
     <section class="container">
       <div class="main-top">
-        <h2><img src="/Mission-02/assets/icon/shopping.svg" alt="아이콘"> 오늘의 쇼핑 제안</h2>
+        <img src="/Mission-02/assets/icon/shopping.svg" alt="아이콘">
+        <h2>오늘의 쇼핑 제안</h2>
       </div>
 
       <div class="main-bottom">
         <div>
-          <div><a href="/"><img src="./assets/offer/furniture.jpg" alt="렌지대"></a></div>
+          <div>
+            <a href="/"><img src="./assets/offer/furniture.jpg" alt="렌지대"></a>
+          </div>
           <div>
             <p>솔로리빙 셀린 렌지대 60...</p>
             <img src="./assets/sprites/rating-stars4,5.png" alt="평점"> (3,255)
@@ -47,7 +50,7 @@
           </div>
           <div>
             <p>옆 동네몰 레트로 LED 감성...</p>
-            <img src="//image10.coupangcdn.com/image/badges/rocket/rocket_logo.png">
+            <img class="logo" src="//image10.coupangcdn.com/image/badges/rocket/rocket_logo.png" alt="로켓배송 이모티콘">
             <img src="./assets/sprites/rating-stars4,5.png" alt="평점"> (1,807)
           </div>
         </div>
@@ -64,12 +67,13 @@
         </div>
 
         <div>
-          <div>
+          <div class="picture">
             <a href="/"><img src="./assets/offer/boohgle.jpg" alt="냄비"></a>
           </div>
           <div>
             <p>프리미엄 부착식 식기건조...</p>
-            <img src="//image10.coupangcdn.com/image/badges/rocket/rocket_logo.png">
+            <img class="logo picture" src="//image10.coupangcdn.com/image/badges/rocket/rocket_logo.png"
+              alt="로켓배송 이모티콘">
             <img src="./assets/sprites/rating-stars5.png" alt="평점"> (1,009)
           </div>
         </div>
@@ -90,7 +94,7 @@
 
     </section>
 
-
+  </div>
 
 
 
